@@ -1,0 +1,8 @@
+$primary-color: #b2bec3;
+$secondary-color: #1e272e;
+
+@mixin media-sm {
+    @media screen and (max-width: 500px) {
+        @content;
+    }
+}
