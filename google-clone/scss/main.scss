@@ -1,0 +1,11 @@
+@import './config';
+@import './home';
+@import './search';
+@import './responsive';
+@import './searchPage';
+
+
+body{
+    background-color: $secondary-color;
+    color: $primary-color;
+}
